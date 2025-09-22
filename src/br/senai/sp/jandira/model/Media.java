@@ -43,6 +43,7 @@ public class Media {
     public void calcularNota() {
         //Somando as 4 notas
         mediaFinal = somaDasNotas = (nota1 + nota2 + nota3 + nota4) / 4;
+
         exibirResultado();
 
         //Calculando a média das notas
@@ -58,7 +59,7 @@ public class Media {
 
     }
     public void exibirResultado(){
-        System.out.println("MÉDIA DO(A) ALUNO(A): " + somaDasNotas);
+        System.out.println("MÉDIA DO(A) ALUNO(A): " + mediaFinal);
     }
 
 }
